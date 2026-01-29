@@ -1,0 +1,9 @@
+[user]
+	email = mark@kitauji.net
+	name = Mark Schneider
+[init]
+	defaultBranch = main
+[column]
+	ui = auto
+[branch]
+    sort = committerdate
