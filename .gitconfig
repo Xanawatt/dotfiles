@@ -7,3 +7,9 @@
 	ui = auto
 [branch]
     sort = committerdate
+[alias]
+    authors = shortlog --summary --numbered --email
+    last = log -1 HEAD
+    tree = log --graph --decorate --abbrev-commit --all \
+  --pretty=format:'%C(yellow)commit %h%C(auto)%d%n%C(cyan)Author:%Creset %aN %C(dim white)<%aE>%n%C(cyan)Date:%Creset %C(dim white)%ad (%ar)%n%s%n' \
+  --date=format:'%b %d %Y %H:%M:%S %z'
